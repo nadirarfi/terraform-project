@@ -1,6 +1,13 @@
 # terraform-project
 
-Infrastructure as code deployement plan:
+
+
+## Diagram
+
+<img src="diagram.png" alt="Alt text" title="Diagram of the infrastructure deployed">
+
+
+## Infrastructure as code deployement plan:
 
 - Set up a VPC with an Internet Gateway
 - Create a public subnet within the VPC
@@ -12,8 +19,3 @@ Infrastructure as code deployement plan:
 - Provision an Elastic IP address 
 - Launch an EC2 instance 
 - Install and setup an apache server with user data bootstrap file
-
-
-<img src="diagram.png" alt="Alt text" title="Diagram of the infrastructure deployed">
-
-
