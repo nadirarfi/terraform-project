@@ -1,7 +1,7 @@
 # terraform-project
 
 The main goal of this project is to:
-- Set up at VPC
+- Set up a VPC
 - Create Internet Gateway
 - Define Route Table
 - Create a Subnet and associate it with Route Table
