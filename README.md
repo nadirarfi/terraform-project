@@ -1,13 +1,17 @@
 # terraform-project
 
-The main goal of this project is to:
-- Set up a VPC
-- Create Internet Gateway
-- Define Route Table
-- Create a Subnet and associate it with Route Table
-- Create Security Group to allow port 22 SSH, 80 HTTP, 443 HTTPS
-- Create a network interface and assign an Elastic IP  
-- Create an EC2 instance 
-- Install and enable an apache server
+Infrastructure as code deployement plan:
+
+- Set up a VPC with an Internet Gateway
+- Create a public subnet within the VPC
+- Associate a route table to the subnet
+- Create two security groups for: 
+    - Secure remote access (SSH) 
+    - Web traffic (HTTP and HTTPS)  
+- Create a network interface 
+- Provision an Elastic IP address 
+- Launch an EC2 instance 
+- Install and setup an apache server with user data bootstrap file
+
 
 
