@@ -14,4 +14,5 @@ Infrastructure as code deployement plan:
 - Install and setup an apache server with user data bootstrap file
 
 
+![My Image](diagram.png)
 

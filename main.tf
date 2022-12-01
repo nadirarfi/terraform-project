@@ -189,7 +189,7 @@ resource "aws_instance" "my_web_server" {
   instance_type             = "t3.micro"
   availability_zone         = "eu-north-1a"
   key_name                  = var.my_keypair
-  user_data = "${file("user_data.sh")}"
+  user_data = "${file("user_data.sh")}" # Install and enable an apache server
 
   network_interface {
     device_index         = 0
@@ -201,6 +201,5 @@ resource "aws_instance" "my_web_server" {
   }  
 }
 
-# Install and enable an apache server
 
 
